@@ -19,6 +19,7 @@ public class Kishan_Week_1 {
         Object[] arr = { 1, "one", 5.5 };
         Arrays.stream(arr).forEach((e) -> System.out.println(e));
 
+        // Set
         System.out.println("\nSet:");
         Set<Object> my_set = new HashSet<>();
         my_set.add(1);
@@ -26,6 +27,7 @@ public class Kishan_Week_1 {
         my_set.add(5.5);
         my_set.stream().forEach((e) -> System.out.println(e));
 
+        // Dictionary/Map
         System.out.println("\nDictionary:");
         Map<Object, Object> map = new HashMap<>();
         map.put("key1", 100);
